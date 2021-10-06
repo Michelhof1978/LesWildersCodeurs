@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&display=swap');
+</style> 
+
+html, body {
+  margin:0;
+  padding:0;
+  }
+ 
+body{
+  background-color: rgb(32, 32, 48);
+  align-items: center;
+  font-family:Orbitron, sans-serif;
+  font-size:small;
+  color:white;
+}
+
+header{
+  padding:0px;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.banner1{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding:0px 10px;
+  color:rgb(32, 32, 48);
+  font-size: 9px;
+  background-color:gray;
+}
+
+.banner2{
+  padding:0px 10px;
+  display: flex;
+}
+
+h1{
+  box-sizing: border-box;
+}
+
+nav{
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.material-icons-round{
+  font-size :25px;
+  color:rgb(32, 32, 48);
+  padding-bottom: 11px;
+  padding-left: 7px;
+}
+.navIcons{
+  display:flex;
+  justify-content: flex-end;
+  align-items:flex-end;
+  background-color:gray;
+}
+
+form {
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top:35px;
+}
+
+.addLinkFormField,textarea {
+  margin-top: 8px;
+  margin-bottom: 20px;
+  height: 40px;
+  width: 350px;
+  padding:12px;
+  border-radius: 10px;
+  background-color: gray;
+  border: none;
+  box-sizing: border-box;
+}
+
+.addLinkFormField{
+  color: rgb(187, 178, 209);
+  
+}
+
+.addLinkFormField::placeholder, textarea::placeholder {
+  color: rgb(229, 223, 235);
+}
+
+textarea {
+  margin-bottom: 15px;
+  min-height:150px;
+  min-width: 150px;
+  background-color: gray;
+  border-radius: 10px;
+  border: none;
+  }
+
+.submitButton{
+  padding: 10px 14px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  background:gray;
+  font-family:Orbitron,sans-serif;
+  font-size:small;
+  font-weight: bold;
+  color: #c3acca;
+  border: none;
+  border-radius: 10px;
+
+}
+
