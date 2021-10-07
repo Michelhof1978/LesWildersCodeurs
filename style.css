@@ -8,12 +8,11 @@ html, body {
  
 body{
   background-color: rgb(32, 32, 48);
-  align-items: center;
   font-family:Orbitron, sans-serif;
   font-size:small;
   color:white;
 }
-
+/* BANNER */
 header{
   padding:0px;
   display:flex;
@@ -35,16 +34,13 @@ header{
 .banner2{
   padding:0px 10px;
   display: flex;
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 300;
 }
 
 h1{
   box-sizing: border-box;
-}
-
-nav{
-  margin-top: 10px;
-  font-size: 12px;
-  font-weight: 300;
 }
 
 .material-icons-round{
@@ -59,6 +55,7 @@ nav{
   align-items:flex-end;
   background-color:gray;
 }
+/* END BANNER/NAVBAR*/
 
 form {
   display:flex;
@@ -111,4 +108,173 @@ textarea {
   border-radius: 10px;
 
 }
+
+/*style page catégorie*/
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&display=swap');
+
+
+body {
+    /*display: flex;
+    flex-direction:column;*/
+    background-color: rgb(29, 28, 28);
+    font-family:Orbitron, sans-serif;
+}
+
+/* BANNER */
+header{
+    padding:0px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .banner1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding:0px 10px;
+    color:rgb(32, 32, 48);
+    font-size: 9px;
+    background-color:gray;
+  }
+  
+  .banner2{
+    padding:0px 10px;
+    display: flex;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 300;
+  }
+  
+  h1{
+    box-sizing: border-box;
+  }
+  
+  .material-icons-round{
+    font-size :25px;
+    color:rgb(32, 32, 48);
+    padding-bottom: 11px;
+    padding-left: 7px;
+  }
+  .navIcons{
+    display:flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    background-color:gray;
+  }
+  /* END BANNER/NAVBAR*/
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    margin:10px;
+}
+
+.introductionBox {
+    background-color: gray;
+    display:flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 90%;
+}
+
+a:hover {
+    color: blue;
+}
+
+.logo {
+    min-width:100px;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+.searchBar {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+.send {
+    height: 30px;
+    width: 80px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(138, 130, 130);
+    
+}
+.send:hover {
+    color: rgb(38, 23, 172); 
+}
+
+.magnifyingGlass {
+    height: 30px;
+}
+.searchField {
+    background-color: rgb(200, 191, 191);
+}
+
+#search {
+width: 50%;
+height: 30px;
+}
+
+.reference{
+    color: white;
+}
+
+
+/*Ajouts Sandrine*/
+
+
+.subcategoryBox{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 90%;    
+}
+
+.subcategoryBox h2{
+    font-size:medium;
+    color:white;
+}
+
+.subcatContent{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    border-radius: 10px;
+    background-color: gray;
+    padding:10px;
+    margin-bottom:8px;
+}
+
+.subcatContent p, .introductionBox p{
+    font-size:12px;
+    padding:5px 10px;
+    margin:1px;
+}
+
+.subcatContent a{
+    text-decoration: none;
+    color:rgb(72, 25, 90);
+    padding:5px 10px;
+    margin:1px;
+    font-size:medium;
+    font-weight: 900;
+}
+
+@media screen and (min-width: 768px){
+    .mainContainer{
+        margin:15px 150px;
+    
+    }
+    }
+ 
 

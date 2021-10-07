@@ -13,12 +13,11 @@
 
 <header>
 <?php include 'banner1.php';?>
-      <nav class="banner2">
-        <a href="index.php">ACCUEIL </a>
-        >
-        <a>Ajouter une ressource</a>
-      </nav>
-  
+  <nav class="banner2">
+    <a href="index.php">ACCUEIL </a>
+    >
+    <a>Ajouter une ressource</a>
+  </nav>
 </header>
 
   <div id="addLinkForm">
